@@ -138,11 +138,11 @@ export default function AboutPage() {
               },
             ].map((item, i) => (
               <FadeIn key={item.title} delay={i * 0.1}>
-                <div className="bg-dark-800 border border-dark-700 rounded-xl p-5">
+                <div className="flex flex-col h-full bg-dark-800 border border-dark-700 rounded-xl p-5">
                   <h3 className="text-sm font-semibold text-accent-400 mb-2">
                     {item.title}
                   </h3>
-                  <p className="text-xs text-text-secondary leading-relaxed">
+                  <p className="text-xs text-text-secondary leading-relaxed flex-1">
                     {item.desc}
                   </p>
                 </div>
