@@ -27,7 +27,7 @@ export default function TermsOfServicePage() {
 
         <LegalSection title="2. Description of Service">
           <p>
-            {site.name} is a digital holding company. This Site is informational in
+            {site.name} is a digital company. This Site is informational in
             nature and provides information about our company, portfolio, and services. We
             reserve the right to modify, suspend, or discontinue any aspect of the Site at
             any time.

@@ -3,7 +3,7 @@ export const site = {
   shortName: "GarnLoop",
   tagline: "We build the internet's quiet winners.",
   description:
-    "GarnLoop acquires, builds, and scales lean internet products across content distribution, wellness, and lifestyle verticals. We don't chase trends. We identify underserved digital needs — and build tools that solve them simply, profitably, and permanently.",
+    "GarnLoop builds and operates lean internet products across content distribution, wellness, and lifestyle verticals. We don't chase trends. We identify underserved digital needs — and build tools that solve them simply, profitably, and permanently.",
   url: "https://garnloop.com",
   email: "Hello@garnloop.com",
   foundingYear: 2025,
@@ -11,7 +11,7 @@ export const site = {
   founder: {
     name: "Sherif Elkady",
     title: "Founder & CEO",
-    bio: "Serial entrepreneur and investor who builds and acquires profitable digital products across multiple verticals. Focused on identifying underserved digital needs and creating lean, permanent solutions.",
+    bio: "Serial entrepreneur who builds and operates profitable digital products across multiple verticals. Focused on identifying underserved digital needs and creating lean, permanent solutions.",
   },
   social: {
     twitter: "",

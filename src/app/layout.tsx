@@ -13,11 +13,11 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "GarnLoop, Inc. | Digital Holding Company",
+    default: "GarnLoop, Inc. | Digital Products Company",
     template: "%s | GarnLoop",
   },
   description:
-    "GarnLoop acquires, builds, and scales lean internet products across content distribution, wellness, and lifestyle verticals.",
+    "GarnLoop builds and operates lean internet products across content distribution, wellness, and lifestyle verticals.",
   metadataBase: new URL("https://garnloop.com"),
   openGraph: {
     type: "website",

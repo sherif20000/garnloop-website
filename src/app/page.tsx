@@ -41,14 +41,14 @@ export default function Home() {
               What We Do
             </h2>
             <p className="text-center text-text-secondary max-w-xl mx-auto mb-14">
-              We operate at the intersection of acquisition, creation, and growth.
+              We operate at the intersection of discovery, creation, and growth.
             </p>
           </FadeIn>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
               {
-                title: "Acquire",
-                desc: "We identify underserved digital products with real users and untapped potential.",
+                title: "Discover",
+                desc: "We identify underserved digital needs with real users and untapped potential.",
                 icon: (
                   <svg className="w-8 h-8 text-accent-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3H21m-3.75 3H21" />
@@ -98,7 +98,7 @@ export default function Home() {
               Our Products
             </h2>
             <p className="text-center text-text-secondary max-w-xl mx-auto mb-14">
-              Products we&apos;ve built and acquired under the GarnLoop umbrella.
+              Products we&apos;ve built and launched under the GarnLoop umbrella.
             </p>
           </FadeIn>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto">
@@ -126,7 +126,7 @@ export default function Home() {
               Interested in what we&apos;re building?
             </h2>
             <p className="text-text-secondary mb-8">
-              Whether you have a product to sell, a partnership to explore, or just want
+              Whether you&apos;d like to partner with us, explore a collaboration, or just want
               to learn more — we&apos;d love to hear from you.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -150,8 +150,7 @@ export default function Home() {
             url: "https://garnloop.com",
             email: "Hello@garnloop.com",
             description:
-              "Digital holding company that acquires, builds, and scales lean internet products.",
-            foundingDate: "2025",
+              "Digital company that builds and operates lean internet products.",
           }),
         }}
       />

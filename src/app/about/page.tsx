@@ -19,7 +19,7 @@ export default function AboutPage() {
               About GarnLoop
             </h1>
             <p className="mt-4 text-lg text-text-secondary max-w-xl mx-auto">
-              A digital holding company built for the long game.
+              A digital company built for the long game.
             </p>
           </FadeIn>
         </div>
@@ -43,11 +43,10 @@ export default function AboutPage() {
                 products that work, generate revenue, and compound over time.
               </p>
               <p>
-                As a holding company, GarnLoop operates a portfolio of independent
-                internet products across content distribution, wellness, and lifestyle
-                verticals. Each product runs with minimal overhead and maximum focus,
-                backed by the shared infrastructure and strategic oversight of the parent
-                company.
+                GarnLoop operates a portfolio of independent internet products across
+                content distribution, wellness, and lifestyle verticals. Each product
+                runs with minimal overhead and maximum focus, backed by shared
+                infrastructure and strategic oversight.
               </p>
             </div>
           </FadeIn>

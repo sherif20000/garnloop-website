@@ -17,8 +17,8 @@ export default function ContactPage() {
               Get in Touch
             </h1>
             <p className="mt-4 text-lg text-text-secondary max-w-xl mx-auto">
-              We&apos;d love to hear from you — whether you have a product to sell, a
-              partnership to explore, or just want to say hello.
+              We&apos;d love to hear from you — whether you&apos;d like to partner with us,
+              explore a collaboration, or just want to say hello.
             </p>
           </div>
         </FadeIn>

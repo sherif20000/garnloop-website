@@ -10,8 +10,7 @@ export default function Footer() {
           <div>
             <p className="text-lg font-bold text-text-primary mb-2">{site.shortName}</p>
             <p className="text-sm text-text-muted max-w-xs">
-              A digital holding company that acquires, builds, and scales lean internet
-              products.
+              A digital company that builds and operates lean internet products.
             </p>
           </div>
 
