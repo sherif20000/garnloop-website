@@ -21,5 +21,15 @@ export const companies: PortfolioCompany[] = [
     status: "Active",
     year: 2025,
   },
-  // To add a new company, copy the object above and fill in the fields.
+  {
+    slug: "peakgearguide",
+    name: "PeakGearGuide",
+    tagline: "Outdoor gear reviews you can trust",
+    description:
+      "A curated outdoor gear review platform helping adventurers find the right equipment. In-depth, honest reviews across hiking, camping, and outdoor lifestyle categories — built for people who value quality over hype.",
+    category: "Lifestyle",
+    url: "https://peakgearguide.com",
+    status: "Active",
+    year: 2025,
+  },
 ];
