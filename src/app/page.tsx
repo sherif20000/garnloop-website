@@ -95,7 +95,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-6">
           <FadeIn>
             <h2 className="text-3xl font-bold text-center text-text-primary mb-4">
-              Our Companies
+              Our Products
             </h2>
             <p className="text-center text-text-secondary max-w-xl mx-auto mb-14">
               Products we&apos;ve built and acquired under the GarnLoop umbrella.

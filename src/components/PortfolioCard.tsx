@@ -6,7 +6,7 @@ export default function PortfolioCard({ company }: { company: PortfolioCompany }
       href={company.url}
       target="_blank"
       rel="noopener noreferrer"
-      className="group block bg-dark-800 border border-dark-700 rounded-xl p-6 hover:border-accent-500/50 hover:-translate-y-1 transition-all duration-300"
+      className="group flex flex-col h-full bg-dark-800 border border-dark-700 rounded-xl p-6 hover:border-accent-500/50 hover:-translate-y-1 transition-all duration-300"
     >
       <div className="flex items-start justify-between mb-3">
         <h3 className="text-lg font-semibold text-text-primary group-hover:text-accent-400 transition-colors">
@@ -17,7 +17,7 @@ export default function PortfolioCard({ company }: { company: PortfolioCompany }
         </span>
       </div>
       <p className="text-sm text-accent-300 mb-2">{company.tagline}</p>
-      <p className="text-sm text-text-secondary leading-relaxed mb-4">
+      <p className="text-sm text-text-secondary leading-relaxed mb-4 flex-1">
         {company.description}
       </p>
       <div className="flex items-center justify-between">
