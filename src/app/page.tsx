@@ -33,6 +33,37 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Backed By */}
+      <section className="py-12 border-t border-dark-700/50">
+        <div className="max-w-4xl mx-auto px-6">
+          <FadeIn>
+            <div className="flex flex-col items-center gap-4">
+              <p className="text-xs text-text-muted uppercase tracking-widest">
+                Backed by
+              </p>
+              <a
+                href="https://stripe.com/startups"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="opacity-50 hover:opacity-80 transition-opacity"
+              >
+                <svg
+                  viewBox="0 0 60 25"
+                  className="h-8 w-auto"
+                  fill="currentColor"
+                  aria-label="Stripe"
+                >
+                  <path
+                    d="M59.64 14.28h-8.06c.19 1.93 1.6 2.55 3.2 2.55 1.64 0 2.96-.37 4.05-.95v3.32a12.3 12.3 0 0 1-4.56.85c-4.05 0-6.83-2.11-6.83-7.24 0-4.17 2.36-7.36 6.3-7.36 3.87 0 5.95 3.02 5.95 7.05 0 .65-.05 1.2-.05 1.78zm-4.14-5.78c0-.72-.36-2.72-2.42-2.72-1.78 0-2.36 1.58-2.49 2.72h4.91zM1.24 5.67c2.08-.83 4.03-1.22 5.82-1.22 3.59 0 5.33 1.72 5.33 5.14v8.73H8.88l-.36-1.46c-1.14 1.14-2.56 1.78-4.29 1.78-2.8 0-4.46-1.78-4.46-4.34 0-3.25 2.42-4.63 7.05-5.33l.6-.09c0-1.2-.43-1.78-1.86-1.78-1.18 0-2.92.47-4.32 1.14V5.67zm6.42 7.93c-2.17.36-3.02 1.02-3.02 2.24 0 .9.55 1.46 1.4 1.46.96 0 1.86-.55 2.49-1.2l.06-.06V13.3l-.93.3zM16.8.45h4.14v17.87H16.8V.45zm18.42 5.1c3.93 0 6.3 3.25 6.3 7.24 0 4.17-2.55 7.36-6.42 7.36-1.5 0-2.62-.47-3.56-1.34l-.36 1.02h-3.5V.45h4.14v6.12c.9-.72 2.04-1.02 3.4-1.02zm-1.2 10.98c1.78 0 2.86-1.58 2.86-3.71 0-2.08-1.02-3.59-2.8-3.59-1.02 0-1.86.47-2.43 1.14v5.28c.6.55 1.34.88 2.37.88zM42.94.45h4.14v17.87h-4.14V.45zm13.73 5.1c-1.78 0-2.86.72-3.56 1.34v-1.02h-4.14v12.45h4.14v-8.37c.6-.72 1.4-1.14 2.43-1.14.84 0 1.4.36 1.4 1.78v7.73h4.14v-8.73c0-3.42-1.74-5.14-4.41-5.04z"
+                    className="text-text-muted"
+                  />
+                </svg>
+              </a>
+            </div>
+          </FadeIn>
+        </div>
+      </section>
+
       {/* What We Do */}
       <section className="py-20 lg:py-28">
         <div className="max-w-6xl mx-auto px-6">
