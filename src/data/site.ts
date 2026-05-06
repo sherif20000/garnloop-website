@@ -15,7 +15,7 @@ export const site = {
   },
   social: {
     twitter: "",
-    linkedin: "",
+    linkedin: "https://linkedin.com/company/garnloop",
   },
   nav: [
     { label: "Home", href: "/" },
