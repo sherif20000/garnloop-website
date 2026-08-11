@@ -16,6 +16,7 @@ export const site = {
   social: {
     twitter: "",
     linkedin: "https://linkedin.com/company/garnloop",
+    crunchbase: "https://www.crunchbase.com/organization/garnloop-inc",
   },
   nav: [
     { label: "Home", href: "/" },
